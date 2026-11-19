@@ -1,0 +1,1 @@
+.my-job-actions{display:flex;align-items:center;gap:8px;margin-inline-start:auto}.my-job-edit{background:#f4f1ff;border-color:#d9d2f0;color:#5e4bb6}.my-job-edit:hover{background:#e9e4ff}.my-job-actions .my-job-delete{margin:0}@media(max-width:580px){.my-job-actions{width:100%;margin:0}.my-job-actions button{flex:1}}

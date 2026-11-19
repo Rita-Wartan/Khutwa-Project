@@ -1,0 +1,1 @@
+export default function CategoryCard({ category, onSelect }) { return <button className="card" onClick={() => onSelect(category.name)}><div className="card-icon"><i className={`fas ${category.icon}`} /></div><div className="card-title">{category.name}</div></button>; }

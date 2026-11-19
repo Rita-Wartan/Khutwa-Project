@@ -1,0 +1,20 @@
+# Dependencies
+**/node_modules/
+
+# Environment and secrets
+**/.env
+!.env.example
+
+# Build output
+**/dist/
+
+# Runtime uploads and logs
+backend/uploads/*
+!backend/uploads/.gitkeep
+**/npm-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp

@@ -1,0 +1,26 @@
+/* Keep the shared header in the requested LTR visual order on RTL pages. */
+header {
+  direction: ltr;
+}
+
+header .logo {
+  order: 1;
+}
+
+header .header-auth-actions {
+  order: 2;
+}
+
+header .menu-btn {
+  order: 3;
+}
+
+/* The wrapper owns the focus treatment; inner controls do not draw a second box. */
+.auth-input-wrap input:focus,
+.auth-input-wrap input:focus-visible,
+.auth-textarea-wrap textarea:focus,
+.auth-textarea-wrap textarea:focus-visible {
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+}

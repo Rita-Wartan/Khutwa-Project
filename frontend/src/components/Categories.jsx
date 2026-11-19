@@ -1,0 +1,3 @@
+import CategoryCard from './CategoryCard';
+export const categories = [{name:'تسويق',icon:'fa-user-tie'},{name:'مبيعات',icon:'fa-bullhorn'},{name:'عمال',icon:'fa-hard-hat'},{name:'حاسب آلي',icon:'fa-laptop'},{name:'مؤهلات عليا',icon:'fa-graduation-cap'},{name:'وظائف أخرى',icon:'fa-ellipsis-h'},{name:'الشؤون الإدارية',icon:'fa-briefcase'},{name:'فنيين',icon:'fa-id-card'}];
+export default function Categories({ onSelect }) { return <section className="categories" id="categories"><h2>الوظائف المرتبطة بمجال شغلك وتخصصك</h2><p>اختر المجال المناسب لك وابدأ رحلتك المهنية معنا اليوم</p><div className="cards-grid">{categories.map(c => <CategoryCard key={c.name} category={c} onSelect={onSelect} />)}</div></section>; }

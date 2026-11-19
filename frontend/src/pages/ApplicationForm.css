@@ -1,0 +1,66 @@
+.application-form {
+  margin: 0 0 16px;
+  padding: 15px;
+  border: 1px solid #e5e0f2;
+  border-radius: 12px;
+  background: #faf9fe;
+}
+
+.application-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #4a4260;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.application-form textarea {
+  width: 100%;
+  min-height: 110px;
+  padding: 11px;
+  resize: vertical;
+  border: 1px solid #e2ddef;
+  border-radius: 9px;
+  background: #fff;
+  color: #333;
+  font: inherit;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.application-form textarea:focus {
+  border-color: #5e4bb6;
+  box-shadow: 0 0 0 3px rgba(94, 75, 182, 0.12);
+}
+
+.application-form-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.application-form-actions button {
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  border-radius: 9px;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.application-form-actions button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.application-form-submit {
+  background: #5e4bb6;
+  color: #fff;
+}
+
+.application-form-cancel {
+  border: 1px solid #d9d2f0 !important;
+  background: #fff;
+  color: #5e4bb6;
+}
